@@ -1,21 +1,22 @@
+let N;
+let numero;
+
+N = parseInt(prompt("Ingresa el número secreto"));
+
 function adivinar() {
-let secreto;
-let intento;
+numero = parseInt(prompt("Adivina el número"));
 
-secreto = parseInt(prompt("Jugador 1: Ingresa el número secreto"));
-intento = parseInt(prompt("Jugador 2: Adivina el número"));
-
-  if (intento < secreto) {
+  if (numero < N) {
     alert("El número secreto es mayor");
     adivinar();
   }
 
-  if (intento > secreto) {
+  if (numero > N) {
     alert("El número secreto es menor");
     adivinar();
   }
 
-  if (intento === secreto) {
+  if (numero === N) {
     alert("¡Correcto! Adivinaste el número.");
   }
 }
