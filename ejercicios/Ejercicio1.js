@@ -1,3 +1,5 @@
+
+function leerYCalcular() {
 let numero;
 let cuadrado;
 
@@ -9,3 +11,5 @@ if(numero>=0){
 } else{
     alert("Se introdujo un numero negativo, fin del programa")
 }
+}
+leerYCalcular(); 
