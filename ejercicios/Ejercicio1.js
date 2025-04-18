@@ -1,3 +1,4 @@
+
 function leerYCalcular() {
 let numero;
 let cuadrado;
