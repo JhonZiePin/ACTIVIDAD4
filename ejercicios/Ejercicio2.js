@@ -3,17 +3,17 @@ let numero;
 
 N = parseInt(prompt("Ingresa el número N"));
 
-function adivinar() {
+while (numero !== N) {
 numero = parseInt(prompt("Adivina el número"));
 
   if (numero < N) {
     alert("El número N es mayor");
-    adivinar();
+  
   }
 
   if (numero > N) {
     alert("El número N es menor");
-    adivinar();
+   
   }
 
   if (numero === N) {
@@ -21,4 +21,3 @@ numero = parseInt(prompt("Adivina el número"));
   }
 }
 
-adivinar();
