@@ -23,4 +23,4 @@ let resultado = `Facturación total: $${facturacionTotal.toFixed(2)}\n`;
 resultado += `Litros vendidos del artículo 1: ${litrosArticulo1} litros\n`;
 resultado += `Facturas con importe mayor a $600: ${facturasMayores600}`;
 
-alert(resultado);
+window.alert(resultado);
