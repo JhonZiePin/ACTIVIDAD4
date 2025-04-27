@@ -1,3 +1,5 @@
+// 4. Pedir un número y calcular su factorial.
+
 let numero = parseInt(prompt("Ingresa un número para calcular su factorial:"));
 
 if (isNaN(numero)) {
