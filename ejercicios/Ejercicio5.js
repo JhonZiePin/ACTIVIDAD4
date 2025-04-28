@@ -27,15 +27,20 @@ for (let i = 1; i <= 10; i++) {
 if (numPositivos > 0) {
   mediaPositivos = sumaPositivos / numPositivos;
   window.alert(`La media de los números positivos es: ${mediaPositivos}`);
+  console.log(`La media de los números positivos es: ${mediaPositivos}`);
 } else {
   window.alert("No se han ingresado números positivos.");
+  console.log("No se han ingresado números positivos.");
 }
 
 if (numNegativos > 0) {
   mediaNegativos = sumaNegativos / numNegativos;
   window.alert(`La media de los números negativos es: ${mediaNegativos}`);
+  console.log(`La media de los números negativos es: ${mediaNegativos}`);
 } else {
   window.alert("No se han ingresado números negativos.");
+  console.log("No se han ingresado números negativos.");
 }
 
 window.alert(`La cantidad de ceros es: ${ceros}`);
+console.log(`La cantidad de ceros es: ${ceros}`);

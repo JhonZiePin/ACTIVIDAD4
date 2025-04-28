@@ -30,3 +30,4 @@ resultado += `Litros vendidos del artículo 1: ${litrosArticulo1} litros\n`;
 resultado += `Facturas con importe mayor a $600: ${facturasMayores600}`;
 
 window.alert(resultado);
+console.log(resultado);

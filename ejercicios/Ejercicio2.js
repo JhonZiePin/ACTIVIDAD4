@@ -5,23 +5,26 @@
 let N;
 let numero;
 
-N = parseInt(prompt("Ingresa el número N"));
+N = parseInt(prompt("Ingresa el número que quieres adivinar: "));
 
 while (numero !== N) {
 numero = parseInt(prompt("Adivina el número"));
 
   if (numero < N) {
-    alert("El número N es mayor");
+    window.alert("El número secreto es mayor");
+    console.log("El número secreto es mayor");
   
   }
 
   if (numero > N) {
-    alert("El número N es menor");
+    window.alert("El número secreto es menor");
+    console.log("El número secreto es menor")
    
   }
 
   if (numero === N) {
-    alert("¡Muy Bien! Adivinaste el número.");
+    window.alert("¡Muy Bien! Adivinaste el número secreto.");
+    console.log("¡Muy Bien! Adivinaste el número secreto.")
   }
 }
 
