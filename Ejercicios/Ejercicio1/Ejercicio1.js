@@ -1,6 +1,10 @@
 // 1. Leer un número y mostrar su cuadrado, repetir el proceso hasta que se
 //  introduzca un número negativo.
 
+// Hola mundo en el peimer ejercicio.
+window.alert("Hola Mundo!!!");
+console.log("Hola Mundo!!!");
+
 let numero;
 let cuadrado;
 
