@@ -1,6 +1,8 @@
 // 6. Pide un número (que debe estar entre 0 y 10) y muestra la tabla de
 // multiplicar de dicho número.
 
+// Jhon Fredy Sierra Pineda
+
 let num;
 let i = 1;
 let resultado;

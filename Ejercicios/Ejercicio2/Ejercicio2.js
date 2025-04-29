@@ -2,6 +2,8 @@
 // y luego ir pidiendo números indicando “mayor” o “menor” según sea
 // mayor o menor con respecto a N. El proceso termina cuando el usuario acierta.
 
+// Jhon Fredy Sierra Pineda
+
 let N;
 let numero;
 
@@ -23,8 +25,8 @@ numero = parseInt(prompt("Adivina el número"));
   }
 
   if (numero === N) {
-    window.alert("¡Muy Bien! Adivinaste el número secreto.");
-    console.log("¡Muy Bien! Adivinaste el número secreto.")
+    window.alert("Muy Bien!!! Adivinaste el número secreto.");
+    console.log("Muy Bien!!! Adivinaste el número secreto.")
   }
 }
 

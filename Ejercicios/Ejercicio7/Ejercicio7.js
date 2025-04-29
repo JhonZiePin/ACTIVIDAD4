@@ -4,6 +4,9 @@
 // Facturación total, cantidad en litros vendidos del artículo 1 y cuantas
 // facturas se emitieron de más de 600
 
+// Jhon Fredy Sierra Pineda
+// Edwin Alejandro Sierra Pineda
+
 let facturacionTotal = 0;
 let litrosArticulo1 = 0;
 let facturasMayores600 = 0;

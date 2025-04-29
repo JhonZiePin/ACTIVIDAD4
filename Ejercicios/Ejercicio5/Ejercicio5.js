@@ -1,6 +1,8 @@
 // 5. Pedir 10 números. Mostrar la media de los números positivos, la media de
 // los números negativos y la cantidad de ceros.
 
+// Jhon Fredy Sierra Pineda
+// Edwin Alejandro Sierra Pineda
 
 let numPositivos = 0;
 let numNegativos = 0;

@@ -1,5 +1,7 @@
 // 4. Pedir un número y calcular su factorial.
 
+// Jhon Fredy Sierra Pineda
+
 let numero = parseInt(prompt("Ingresa un número para calcular su factorial:"));
 
 if (isNaN(numero)) {

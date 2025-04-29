@@ -1,5 +1,7 @@
 // 8. Pedir un número N, introducir N sueldos, y mostrar el sueldo máximo.
 
+// Edwin Alejandro Sierra Pineda
+
 let N; 
 let sueldos;
 let sueldo;
